@@ -1,0 +1,32 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Funda para smartphone",
+        "marca": "Spigen",
+        "categoria": "Accesorios",
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "nombre": "Router Wi-Fi 6",
+        "marca": "TP-Link",
+        "categoria": "Dispositivos de Red",
+        "stock": 20
+      },
+      {
+        "id": 3,
+        "nombre": "Asistente de Cocina Inteligente",
+        "marca": "Google Nest",
+        "categoria": "Electrodomésticos Inteligentes",
+        "stock": 30
+      },
+      {
+        "id": 4,
+        "nombre": "Procesador AMD Ryzen 9 5900X",
+        "marca": "AMD",
+        "categoria": "Componentes de PC",
+        "stock": 40
+      }
+    ]
+  }
