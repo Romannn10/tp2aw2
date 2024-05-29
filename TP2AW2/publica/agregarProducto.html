@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/agregarproducto.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:3000/productos" method="post"  id="productForm">
+
+        <div class="form-group">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="categoria">Categoría:</label><br>
+            <select id="categoria" name="categoria" class="form-control">
+                <option value="1">Accesorios</option>
+                <option value="2">Dispositivos de Red</option>
+                <option value="3">Electrodomésticos Inteligentes</option>
+                <option value="4">Componentes de PC</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="marca">Marca:</label><br>
+            <input type="text" id="marca" name="marca" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="stock">Stock:</label><br>
+            <input type="number" id="stock" name="stock" class="form-control">
+        </div>
+
+        <p>Seleccione una categoría para su producto y complete los detalles requeridos.</p>
+
+        <div class="button-group">
+            <button type="submit" class="btn btn-success">Agregar Producto</button>
+            <button type="submit" class="btn btn-danger">Eliminar Producto</button>
+            <button type="submit" class="btn btn-warning">Modificar Producto</button>
+        </div>
+    </form>
+</body>
+</html>

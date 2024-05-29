@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+        "id": 1,
+        "nombre": "Teclado Mecánico RGB",
+        "marca": "Razer",
+        "categoria": "Periférico",
+        "stock": 100
+      },
+      {
+        "id": 2,
+        "nombre": "Tarjeta Gráfica GeForce RTX 3080",
+        "marca": "NVIDIA",
+        "categoria": "Hardware",
+        "stock": 25
+      },
+      {
+        "id": 3,
+        "nombre": "Monitor Curvo UltraWide 34\"",
+        "marca": "LG",
+        "categoria": "Monitores",
+        "stock": 15
+      },
+      {
+        "id": 4,
+        "nombre": "Mouse Gamer con Cable",
+        "marca": "Corsair",
+        "categoria": "Periféricos",
+        "stock": 40
+      },
+      {
+        "id": 5,
+        "nombre": "Ratón Inalámbrico Bluetooth",
+        "marca": "Logitech",
+        "categoria": "Periféricos",
+        "stock": 50
+      },
+      {
+        "id": 6,
+        "nombre": "Teclado Gamer Mecánico",
+        "marca": "SteelSeries",
+        "categoria": "Periférico",
+        "stock": 12312
+      }
+  ]
+}
